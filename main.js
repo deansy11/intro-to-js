@@ -90,7 +90,7 @@ let y = (false == "");
 
 // 13.
 let z = (0 == "");
-// A. false
+// A. true
 
 
 // 14.
@@ -110,7 +110,7 @@ let c = (undefined == null);
 
 // 17.
 let d = (null == false);
-// A.true
+// A.false
 
 
 // 18.
@@ -176,7 +176,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A: True!
+// A: False!
 
 
 // 25.
@@ -185,7 +185,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A: False!
+// A: 5
 
 
 // 26.
