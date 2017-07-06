@@ -185,7 +185,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A: 5
+// A: True!
 
 
 // 26.
