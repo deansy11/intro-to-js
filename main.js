@@ -3,7 +3,7 @@
 // 1.
 // What does `givenName` equal right now?
 let givenName;
-// A: undefined
+// A:undefined
 
 
 // 2.
@@ -69,7 +69,7 @@ let statement = yourName + " is taking a class at The Iron Yard, my instructor's
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
 let myNumber = 29;
-let myString = "What's up?"
+let myString = "What's up?";
 let myBoolean = true;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined = "";
@@ -80,27 +80,27 @@ let myUndefined = "";
 
 // 11.
 let x = (false == 0);
-// A.true
+// A. true
 
 
 // 12.
 let y = (false == "");
-// A.true
+// A. true
 
 
 // 13.
 let z = (0 == "");
-// A.false
+// A. false
 
 
 // 14.
 let a = (null == null);
-// A.true
+// A. true
 
 
-// 25.
+// 15.
 let b = (undefined == undefined);
-// A.true
+// A. true
 
 
 // 16.
@@ -115,7 +115,7 @@ let d = (null == false);
 
 // 18.
 let e = (NaN == null);
-// A.false
+// A. false
 
 
 // 19.
@@ -128,7 +128,8 @@ let f = (NaN == NaN);
 // Use the variable `thirsty` as part of your conditional expression.
 // A:
 let thirsty = true;
-if(thirsty) {
+
+if (thirsty) {
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
@@ -145,7 +146,7 @@ if(q){
 } else {
 	console.log("False!");
 }
-// A:True!
+// A: True
 
 
 // 22.
@@ -154,11 +155,11 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:False!
+// A: False!
 
 
 // 23.
-// this expression will set x to NaN
+// this expression will set t to NaN
 let t = 1 * undefined;
 
 if(t){
@@ -175,7 +176,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:True!
+// A: True!
 
 
 // 25.
@@ -193,7 +194,7 @@ if("Hello World!"){
 } else {
 	console.log("False!");
 }
-// A:True!
+// A: True!
 
 
 // 27.
@@ -202,7 +203,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:True!
+// A: True!
 
 
 // 28.
@@ -211,7 +212,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:True!
+// A: True!
 
 
 // 29.
@@ -220,7 +221,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:True!
+// A: True!
 
 
 // 30.
